@@ -1,0 +1,66 @@
+/* General - Start */
+
+body{
+  transition: all .6s ease;
+}
+img{
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+.description{
+  max-width: 80%;
+  margin: 15px auto;
+}
+.card{
+  margin: 10px auto;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+}
+.btn-primary{
+  padding: 5px 40px !important;
+}
+/* General - End */
+
+/* Header - Start */
+header{
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+}
+nav:hover .d-flex{
+  display: flex !important;
+}
+a.navbar-brand{
+  margin-right: 5px !important;
+}
+a.navbar-brand img{
+  width: 40px;
+}
+.d-flex{
+  display: none !important;
+}
+
+/* Header - End */
+
+/* About - Start */
+.about{
+  margin-top: 90px;
+}
+.logo{
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+/* About - End */
+
+/* Products - Start */
+.products{
+  margin-top: 100px;
+}
+
+/* Products - End */
