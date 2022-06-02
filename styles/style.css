@@ -21,6 +21,29 @@ img{
 .btn-primary{
   padding: 5px 40px !important;
 }
+.card{
+  width: 18rem;
+}
+.chart{
+  margin: 80px auto;
+}
+.chart h2{
+  font-weight: 700;
+  font-size: 46px;
+  position: relative;
+  width: auto;
+}
+.chart h2::after{
+  content: '';
+  position: relative;
+  display: block;
+  width: 40%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: rgb(156, 156, 156);
+  margin: 0 auto;
+  top: 20px;
+}
 /* General - End */
 
 /* Header - Start */
@@ -58,9 +81,20 @@ a.navbar-brand img{
 }
 /* About - End */
 
-/* Products - Start */
-.products{
-  margin-top: 100px;
+/* Products Laptops - Start */
+.products-laptops{
+  margin: 150px auto;
 }
+.products-laptops__list{
+  margin-top: 50px;
+}
+/* Products Laptops - End */
 
-/* Products - End */
+/* Products Phones - Start */
+.products-phones{
+  margin: 150px auto;
+}
+.products-phones__list{
+  margin-top: 50px;
+}
+/* Products Phones - End */
