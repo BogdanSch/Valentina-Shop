@@ -53,17 +53,11 @@ header{
   top: 0;
   z-index: 10000;
 }
-nav:hover .d-flex{
-  display: flex !important;
-}
 a.navbar-brand{
   margin-right: 5px !important;
 }
 a.navbar-brand img{
   width: 40px;
-}
-.d-flex{
-  display: none !important;
 }
 
 /* Header - End */
