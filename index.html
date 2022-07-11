@@ -35,13 +35,18 @@
 							<a class="nav-link" href="contacts.html">Contacts</a>
 						</li>
 					</ul>
-					<form class="d-flex" role="search">
-						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<div class="d-flex" role="search">
+						<input class="form-control me-2" list="pages" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-outline-success searchButton" type="button">Search</button>
-					</form>
+					</div>
 				</div>
 			</div>
 		</nav>
+		<datalist id="pages">
+			<option value="Home">
+			<option value="Contacts">
+			<option value="Catalog">
+		</datalist>
 	</header>
 	<section class="about">
 		<div class="container text-center  my-6">

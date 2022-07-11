@@ -6,10 +6,10 @@ searchButton.addEventListener('click', () => {
 	let txt = inputField.value;
 	console.log(txt)
 
-	if (txt.toLowerCase() == 'каталог') {
+	if (txt.toLowerCase() == 'catalog') {
 		document.location.href = 'catalog.html';
 	}
-	if (txt.toLowerCase() == 'контакты') {
+	if (txt.toLowerCase() == 'contacts') {
 		document.location.href = 'contacts.html';
 	}
 });
@@ -18,7 +18,6 @@ const toastTrigger = document.querySelectorAll('.buyTrigger');
 const toastLiveExample = document.getElementById('liveToast');
 
 if (toastTrigger) {
-	console.log(toastTrigger)
 	toastTrigger.forEach((el, key, list) =>
 	{
 		el.addEventListener('click', () => {
